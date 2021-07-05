@@ -5,18 +5,22 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .pera{
     width: 50%;
     padding-left: 5%;
 }
 .pera img{
-    width: 75%;
+    width: 80%;
 }
 .link-button{
     text-decoration: none;
@@ -37,7 +41,33 @@ section{
 p{
     text-align: justify;
 }
-h3{
+head-1{
     color: white;
     font-weight: 800;
+}
+#side-2{
+    padding-right: 40%;
+}
+#bottom{
+    background-image: url(photoss/qq.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.experience-item{
+    padding: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#web-dev-experience{
+    border-left: 10px solid;
+    border-color: tomato;
+}
+#habijabi{
+    border-left: 10px solid;
+    border-color: rgb(184, 28, 0);
+}
+footer p{
+    text-align: center;
 }
